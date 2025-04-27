@@ -2361,7 +2361,7 @@
                                 href="#token" target="_self">Tokenomics</a>
                             <div id="prod-nav"> <a
                                     class="text-opacity-50 text-white cursor-pointer -1024:text-2xl -650:text-base hover:text-opacity-100 duration-300 relative z-[8]"
-                                    href="#ben">Benefits</a>
+                                    href="#ben">Utilities</a>
                               
                             </div><a rel="noopener noreferrer"
                                 class="text-opacity-50 text-white cursor-pointer -1024:text-2xl -650:text-base hover:text-opacity-100 duration-300 z-[8]"
@@ -2394,7 +2394,7 @@
                                 href="#token" target="_self">Tokenomics</a>
                             <div id="prod-nav"> <a
                                     class="text-opacity-50 text-white cursor-pointer -1024:text-2xl -650:text-base hover:text-opacity-100 duration-300 relative z-[8]"
-                                    href="#ben">Benefits</a>
+                                    href="#ben">Utilities</a>
                                
                             </div><a rel="noopener noreferrer"
                                 class="text-opacity-50 text-white cursor-pointer -1024:text-2xl -650:text-base hover:text-opacity-100 duration-300 z-[8]"
@@ -2405,7 +2405,11 @@
                                 <p>Buy $PROFIT</p>
                             </div>
                         </a>
-                        
+                            <style>
+                                html, body{
+                                    scroll-behavior: smooth;
+                                }
+                            </style>
                         <!-- <a href="https://stake.microgpt.io/"
                             class="purple-gradient-bg p-[1px] rounded-[10px] font-bold w-[150px] h-[48px]">
                             <div
@@ -2640,7 +2644,7 @@
 
                     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-<div class="flex justify-center items-center gap-[100px] -768:flex-col  grid-bg p-12">
+<div class="flex justify-center items-center gap-[100px] -768:flex-col  grid-bg p-8">
     <!-- Logo with AOS animation -->
     <div data-aos="fade-right" data-aos-duration="600" class="overflow-hidden rounded-xl shadow-xl">
         <div class="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-blue-500/10 box-glow"></div>
@@ -2663,17 +2667,17 @@
         <p class="leading-relaxed text-gray-300 text-lg -500:text-base"
            data-aos="fade-up"
            data-aos-duration="600"
-           data-aos-delay="200" style="font-size: 28px;">
+           data-aos-delay="200" style="font-size: 28px; line-height: 30px;">
            Profit AI is an intelligent, data-driven ecosystem focused on identifying and capitalizing on profit opportunities across blockchain networks. Our vision is to deliver a competitive edge to investors by unlocking access to alpha-generating insights in real time.
            At the core of Profit AI is a commitment to ongoing innovation. We are actively building a suite of interoperable tools designed to monitor, analyze, and act on signals across multiple chains — creating a dynamic system that continually hunts for inefficiencies,
             arbitrage opportunities, and early trends.
         </p>
-
+        <br>
         <!-- Second Paragraph -->
         <p class="leading-relaxed text-gray-300 text-lg -500:text-base"
            data-aos="fade-up"
            data-aos-duration="600"
-           data-aos-delay="300" style="font-size: 28px;">
+           data-aos-delay="300" style="font-size: 28px; line-height: 30px;">
             With ProfitAi, businesses and creators gain the ability to capitalize on their offerings in a decentralized manner. Whether it's digital content, applications, or even physical goods, the platform provides a versatile solution to monetize effectively, ensuring that creators retain substantial control and benefit from their work.
         </p>
 
@@ -2702,7 +2706,9 @@
                             alt="">
                             <img src="/assets/efficiency-bots-mobile-Hg388LI4.png"
                             class="hidden -650:block h-[280px] -500:h-[200px] mx-auto -400:h-[180px]" alt=""> -->
-                            <h1 style="text-align: center; font-size: 45px; margin-bottom: 90px;">TOKENOMICS</h1>   
+                            <h1 style="text-align: center; font-size: 45px; margin-bottom: 90px;"   data-aos="fade-up" 
+                            data-aos-duration="600"
+                            data-aos-delay="100">TOKENOMICS</h1>   
                             <div class=" h-96  w-full absolute -1024:relative eff-stats-gradient z-[5]" style=" margin-top: 90px;">
                             
                             <div
@@ -2711,7 +2717,9 @@
                             </div> 
 
                             
-                            <div class="flex flex-wrap items-center text-white w-full justify-between absolute bottom-0 font-worksans -1024:relative -1024:flex-col -1024:gap-8 -1024:mt-8">
+                            <div   data-aos="fade-up" 
+                            data-aos-duration="600"
+                            data-aos-delay="100" class="flex flex-wrap items-center text-white w-full justify-between absolute bottom-0 font-worksans -1024:relative -1024:flex-col -1024:gap-8 -1024:mt-8">
     
                                 <div class="mb-3 flex justify-center items-start flex-wrap w-full gap-16 -1024:gap-8">
                                     
@@ -3104,15 +3112,62 @@
                         </div>
                     </section>
                 </section> -->
+                <style>
+                    <style>
+/* Fade up and zoom for the section */
+@keyframes fadeUpZoom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+/* Float animation for icons */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Line draw animation */
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.section-animate {
+  animation: fadeUpZoom 1s ease-out forwards;
+}
+
+.icon-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.line-draw path {
+  stroke-dasharray: 600; /* adjust depending on your line length */
+  stroke-dashoffset: 600;
+  animation: dash 2s ease forwards;
+}
+</style>
+
+                </style>
                 <section
-                    class="flex flex-col justify-center items-center relative w-full mt-[80px] -500:mt-[44px] py-0 "
+                    class="flex section-animate flex-col justify-center items-center relative w-full mt-[80px] -500:mt-[44px] py-0 "
                     style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
                     <div class="overflow-hidden w-full mx-auto flex justify-center items-center p-10 -1024:p-4">
                         <h2
                         style="font-family: head; letter-spacing: 1px;"
                             class="sub-heading grey-gradient-text font-bold max-w-[600px] -768:max-w-[400px] -500:max-w-[350px] w-[100%] leading-10 relative ">
                             <img src="data:image/svg+xml,%3csvg%20width='457'%20height='108'%20viewBox='0%200%20457%20108'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M454.648%204.94602C433.619%202.69401%20413.712%200.663809%20392.302%202.07532C333.254%205.96829%20279.015%2023.8156%20223.442%2044.3573C170.296%2064.0016%20118.643%2085.3036%2063.3969%2097.587C41.5498%20102.444%2021.7671%20103.676%207.10461e-05%20105.664'%20stroke='%23AAAAAA'%20stroke-width='3'%20stroke-linecap='round'%20stroke-dasharray='6%206'/%3e%3c/svg%3e"
-                                class="absolute left-[0%] translate-x-[-115%] -1024:translate-x-[-93%] -500:translate-x-[-85%] top-[10%] scale-x-[1.4]  -1024:scale-100 -768:top-[70%]"
+                                class="absolute left-[0%] translate-x-[-115%] line-draw -1024:translate-x-[-93%] -500:translate-x-[-85%] top-[10%] scale-x-[1.4]  -1024:scale-100 -768:top-[70%]"
                                 alt=""><img
                                 src="data:image/svg+xml,%3csvg%20width='457'%20height='108'%20viewBox='0%200%20457%20108'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M2.35156%204.94602C23.3806%202.69401%2043.2882%200.663809%2064.6979%202.07532C123.746%205.96829%20177.985%2023.8156%20233.558%2044.3573C286.704%2064.0016%20338.357%2085.3036%20393.603%2097.587C415.45%20102.444%20435.233%20103.676%20457%20105.664'%20stroke='%23AAAAAA'%20stroke-width='3'%20stroke-linecap='round'%20stroke-dasharray='6%206'/%3e%3c/svg%3e"
                                     
@@ -3121,6 +3176,10 @@
                                 platforms</span></h2>
                     </div>
                     <div
+                    class="bg-[#F0AC88] h-[150px] -768:hidden w-[150px] ml-blur absolute right-[0%] top-[30%]">
+                    
+                </div> 
+                    <div
                         class="flex justify-center w-[100%] items-center mt-8 gap-8 -1200:gap-3  px-2 -1024:flex-col relative block -1024:hidden">
                         <div
                             class="flex justify-center items-center gap-8 -500:gap-[0.4rem] -1200:gap-3 flex-shrink relative overflow-hidden">
@@ -3128,7 +3187,7 @@
                                 class=" h-[100px] w-[20%] absolute left-[-40px] -1024:hidden platform-black-blur z-[10]">
                             </div>
                             <div class="rounded-[28.8px] bg-white bg-opacity-5 p-4 flex justify-center items-center -1024:!h-[100px] -1024:rounded-[20px] -500:!h-[70px] -1024:!w-[100px] -500:!w-[70px] "
-                                style="height: 90px;"><img class=" h-full w-full "
+                                style="height: 90px;"><img class="icon-float h-full w-full "
                                     src="/assets/uni.png"
                                     alt=""></div>
                             <div class="rounded-[28.8px] bg-white bg-opacity-10 p-4 flex justify-center items-center -1024:!h-[100px] -1024:rounded-[20px] -500:!h-[70px] -1024:!w-[100px] -500:!w-[70px] "
@@ -3178,6 +3237,7 @@
                     </div>
 
                     <div class="flex justify-center w-full items-center mt-8 gap-8 -1200:gap-4 -500:gap-3 px-2 -1024:flex-col relative hidden -1024:block">
+                        
                         <div class="flex justify-center items-center gap-8 -1200:gap-4 -500:gap-3 flex-shrink relative overflow-hidden">
                             <!-- Left side blur effect -->
                             <div class="h-[100px] w-[20%] absolute left-[-40px] -1024:hidden platform-black-blur z-[10]"></div>
@@ -3202,9 +3262,10 @@
                         </div>
                         
                         <!-- Center logo -->
-                        <div class="relative  flex justify-center items-center h-[210px] w-[210px] -1024:h-[150px] -1024:w-[150px] -500:h-[120px] -500:w-[120px]  -1024:order-[-1]">
+                        <div class=" relative  flex justify-center items-center h-[210px] w-[210px] -1024:h-[150px] -1024:w-[150px] -500:h-[120px] -500:w-[120px]  -1024:order-[-1]" style="margin-top: 6px; margin-bottom: 6px;">
                             <div class="h-[250px] w-[250px] -1024:w-[200px] -1024:h-[200px] -500:w-[160px] -500:h-[160px] ml-blur bg-[#ff8d3a] absolute translate-x-[-50%] left-[50%] top-[50%] translate-y-[-50%] z-[1]"></div>
-                            <img class="rounded-[46px] -1024:rounded-[30px] -500:rounded-[24px] platform-logo p-8 -1024:p-6 -500:p-4 w-[250px] h-full relative z-[3]" src="/assets/platform-logo-CZ8SN7bP.png" alt="" style="transform: translate3d(0px, 0px, 0px) scale(0.9886, 0.9886);">
+                            <img  data-aos="zoom-in-up"   data-aos-easing="linear"
+                            data-aos-duration="1500" class="rounded-[46px] -1024:rounded-[30px] -500:rounded-[24px] platform-logo p-8 -1024:p-6 -500:p-4 w-[250px] h-full relative z-[3]" src="/assets/platform-logo-CZ8SN7bP.png" alt="" style="transform: translate3d(0px, 0px, 0px) scale(0.9886, 0.9886);">
                         </div>
                         
                         <!-- Right side icons with similar fixes -->
@@ -3247,11 +3308,20 @@
                     <div class="-768:max-w-[90px] z-10">
                       <img class="floating hero-metal-cont h-[100px]" src="/assets/logo.jpg" alt="">
                     </div>
-                  
+                         
+                    <div
+                    class="bg-[#F0AC88] h-[150px] -768:hidden w-[150px] ml-blur absolute right-[0%] top-[30%]">
+                    
+                </div> 
                     <h2  class="sub-heading text-white font-bold !tracking-tight max-w-[700px] z-10 text-center leading-[120%]">
                       <span style="font-family: head; letter-spacing: 1px;">$PROFIT is on a mission to hunt down profit opportunities across chains and strategies. From trading tools to intelligent bots, we explore every path to gains — so you don’t have to.
                         <span class="purple-gradient-text" style="font-family: head;">Let us lead you to $PROFIT.</span></span>
                     </h2>
+                         
+                    <div
+                    class="bg-[#F0AC88] h-[150px] -768:hidden w-[150px] ml-blur absolute right-[0%] left-[20%] top-[80%]">
+                    
+                </div> 
                   
                     <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="btn-arrow z-10 flex justify-center gap-2 items-center px-5 w-fit font-bold rounded-lg py-2 bg-white mt-[10px]">
                       <p>Get Started</p>
@@ -3261,6 +3331,11 @@
                     <div class="h-[240px] -500:h-[148px] w-full flex justify-center items-center mt-[78px] -500:mt-[46px] z-10">
                       <div class="trans-line h-full w-[1px] rounded-[40px] scale-y-0 origin-top"></div>
                     </div>
+                         
+                    <div
+                    class="bg-[#F0AC88] h-[150px] -768:hidden w-[150px] ml-blur absolute right-[0%] top-[30%]">
+                    
+                </div> 
                   </section>
                   
                 
@@ -3459,7 +3534,7 @@
                                         href="/">About</a><a
                                         class="hover:text-opacity-50 text-white duration-300" href="/">Tokenomics</a>
                                         <a
-                                        class="hover:text-opacity-50 text-white duration-300" href="/">Benefits</a>
+                                        class="hover:text-opacity-50 text-white duration-300" href="/">its</a>
                                     
                                     </ul>
                             </div>
